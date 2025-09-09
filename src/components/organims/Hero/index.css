@@ -1,0 +1,8 @@
+
+.background{
+    background: url("../../../assets/bg-balls.svg"), linear-gradient(180deg, #ff8a00, #ff3600);
+    background-size: 101%;
+    background-position: bottom, 50%;
+    background-repeat: no-repeat;
+    color: #fff;
+}

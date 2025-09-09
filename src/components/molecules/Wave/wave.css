@@ -1,0 +1,48 @@
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(-40%);
+  }
+}
+
+@keyframes wave-reverse {
+  0% {
+    transform: translateX(-40%);
+  }
+  50% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes wave-fast {
+  0% {
+    transform: translateX(-40%);
+  }
+  50% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+.animate-wave {
+  animation: wave 10s linear infinite;
+}
+
+.animate-wave-reverse {
+  animation: wave-reverse 12s linear infinite;
+}
+
+.animate-wave-fast {
+  animation: wave-fast 8s linear infinite;
+}   
